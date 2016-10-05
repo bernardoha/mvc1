@@ -1,0 +1,118 @@
+body{
+	font-family: arial, helvetica, sans-serif;
+	text-align: center;
+}
+h1{
+	font-size: 36px;
+}
+header{
+	background-color: #00639f;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #ffffff;
+}
+header div{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+header div p{
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+
+nav {
+ background: #31384a;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+ 
+nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+nav a:hover {
+	background:#00639F;
+	border-radius:50px;
+}
+
+
+
+form{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 480px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+
+}
+form h3{
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 5px;
+}
+form li{
+	padding: 12px;
+}
+form label{
+	color: #555555;
+	width: 35%;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 3px;
+	padding-top: 3px;
+	text-align: left;
+}
+form .boton{
+	background-color: #31384a;
+	color: #ffffff;
+	width: 100%;
+	border-radius: 7px;
+	font-size: 20px;
+	height: 60px;
+}
+form .boton:hover{
+	cursor: pointer;
+	background-color: #00639F;
+}
+@media(max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
+footer{
+	text-align: center;
+	color: #fff;
+	background-color: #070803;
+	width: 100%;
+	height: auto;
+}
+footer div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer div div li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+
+

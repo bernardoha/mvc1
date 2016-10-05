@@ -1,0 +1,6 @@
+.lista{
+	width: 100%;
+}
+.listado li{
+	display: inline;
+}
